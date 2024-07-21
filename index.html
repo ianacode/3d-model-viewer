@@ -23,7 +23,7 @@
             document.body.appendChild(renderer.domElement);
 
             const loader = new THREE.GLTFLoader();
-            loader.load('ModelMainBuilding.glb', function(gltf) {
+            loader.load('test.glb', function(gltf) {
                 scene.add(gltf.scene);
                 renderer.render(scene, camera);
             });
@@ -43,3 +43,6 @@
     </script>
 </body>
 </html>
+
+
+
